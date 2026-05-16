@@ -55,7 +55,7 @@ The RL agent therefore learns to:
 
 ## Project Structure
 
-\`\`\`text
+```text
 biofarm_ai/
 ├── data/                     # Configuration and dynamic simulation parameters (.gitkeep)
 ├── models/                   # Saved versioned RL models (e.g., ppo_model_v1.0.zip)
@@ -66,8 +66,6 @@ biofarm_ai/
 │   └── dashboard.py          # Streamlit dashboard for visualization/demo
 ├── requirements.txt          # Project dependencies
 └── README.md                 # Project documentation
-\`\`\`
-
 ## Technologies and Libraries Used
 
 * Python 3.10+
